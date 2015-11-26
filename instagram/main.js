@@ -39,7 +39,7 @@ function getNextBatchOfPictures()
         for (var tag in hashtags) commonTags.push( {tag:tag, count:hashtags[tag]} )
         commonTags.sort(function(a, b) {return b.count - a.count})
         
-//        console.log(commonTags)
+//        console.log(commonTags) 
         
         for (var i=1; i<5; i++)
         {
