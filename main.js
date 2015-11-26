@@ -5,6 +5,7 @@ $(document).ready(function(){
     $("#contShdw2").hide()
     $("#contShdw2-2").hide()
     $("#contShdw2-3").hide()
+    $("#contShdw2-4").hide()
     // TweenMax Animation 
     
     // creating a varibale to get id 
@@ -72,10 +73,10 @@ $(document).ready(function(){
         $(".cont2-3").show() 
         $("#contShd3").hide()
         $("#contShdw2-3").show()
-        TweenMax.to(document.getElementById("contShdw2-3-1"), 0.6, {ease:Cubic.easeOut, x:-57, y:-69, scale:0.5 })
-         TweenMax.to(document.getElementById("contShdw2-3-2"), 0.6, {ease:Cubic.easeOut, x:74, y:-70, scale:0.5 })
-         TweenMax.to(document.getElementById("contShdw2-3-3"), 0.6, {ease:Cubic.easeOut, x:-57, y:58, scale:0.5 })
-         TweenMax.to(document.getElementById("contShdw2-3-4"), 0.6, {ease:Cubic.easeOut, x:73, y:58, scale:0.5 })
+        TweenMax.to(document.getElementById("contShdw2-3-1"), 0.6, {ease:Cubic.easeOut, x:-62, y:-60, scale:0.5 })
+         TweenMax.to(document.getElementById("contShdw2-3-2"), 0.6, {ease:Cubic.easeOut, x:67, y:-58, scale:0.5 })
+         TweenMax.to(document.getElementById("contShdw2-3-3"), 0.6, {ease:Cubic.easeOut, x:-62, y:70, scale:0.5 })
+         TweenMax.to(document.getElementById("contShdw2-3-4"), 0.6, {ease:Cubic.easeOut, x:67, y:68, scale:0.5 })
         
     }) 
     
@@ -84,6 +85,11 @@ $(document).ready(function(){
         $(this).remove();  
         $(".cont2-4").show()
         $("#contShd4").hide()
+        $("#contShdw2-4").show()
+          TweenMax.to(document.getElementById("contShdw2-4-1"), 0.6, {ease:Cubic.easeOut, x:-56, y:-60, scale:0.5 })
+         TweenMax.to(document.getElementById("contShdw2-4-2"), 0.6, {ease:Cubic.easeOut, x:74, y:-58, scale:0.5 })
+         TweenMax.to(document.getElementById("contShdw2-4-3"), 0.6, {ease:Cubic.easeOut, x:-56, y:70, scale:0.5 })
+         TweenMax.to(document.getElementById("contShdw2-4-4"), 0.6, {ease:Cubic.easeOut, x:74, y:68, scale:0.5 })
     })   
 
 })
