@@ -47,6 +47,15 @@ function getNextBatchOfPictures()
            
             var relatedHashtags = document.getElementById("text2-1")
             relatedHashtags.textContent = commonTags[3].tag
+            
+            var relatedHashtags = document.getElementById("text2-2")
+            relatedHashtags.textContent = commonTags[4].tag
+            
+            var relatedHashtags = document.getElementById("text2-3")
+            relatedHashtags.textContent = commonTags[5].tag
+            
+            var relatedHashtags = document.getElementById("text2-4")
+            relatedHashtags.textContent = commonTags[6].tag
         }
     }
 }
