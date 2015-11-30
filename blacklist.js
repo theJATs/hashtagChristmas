@@ -117,6 +117,8 @@ var blacklistedHashtags =
     'emoji',
     'emojis',
     'fashion',
-    'amazing'
+    'amazing',
+    'instadaily',
+    'cute'
     // TODO add some more spammy tags
 ]
