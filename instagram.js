@@ -8,10 +8,8 @@ var instagramUrl = endpoint + hashtag + "/media/recent?client_id=" + client_id
 
 var hashtags = {} // we'll keep a count of hashtags
 
-var howManyInstagramCalls = 10
+var howManyInstagramCalls = 20
 var currentInstagramCallCounter = 0
-
-//var martinperssson = "https://api.instagram.com/v1/tags/martinperssson/media/recent?client_id=%20f5e6d7edf7cf4376a2aef55e9e761464";
 
 // RUN IT!
 

@@ -120,5 +120,7 @@ var blacklistedHashtags =
     'amazing',
     'instadaily',
     'cute'
+    'vscocam',
+    'wedding'
     // TODO add some more spammy tags
 ]
