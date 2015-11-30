@@ -186,6 +186,13 @@ var blacklistedHashtags =
     'father',
     'grandad',
     'grandparents',
-    'uncle'
+    'uncle',
+    'monday',
+    'tuesday',
+    'wednesday',
+    'thursday',
+    'friday',
+    'saturday',
+    'sunday'
     // TODO add some more spammy tags
 ]
