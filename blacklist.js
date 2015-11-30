@@ -125,6 +125,18 @@ var blacklistedHashtags =
     'beautiful',
     'pretty',
     'style',
-    'life'
+    'life',
+    'iphoneonly',
+    'webstagram',
+    'nofilter',
+    'color',
+    'colour',
+    'colourful',
+    'colorful',
+    'lol',
+    'lmao',
+    'instafollow',
+    'pmsl',
+    'rofl'
     // TODO add some more spammy tags
 ]
