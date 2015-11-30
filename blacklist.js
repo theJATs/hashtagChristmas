@@ -122,6 +122,9 @@ var blacklistedHashtags =
     'cute',
     'vscocam',
     'wedding',
-    'beautiful'
+    'beautiful',
+    'pretty',
+    'style',
+    'life'
     // TODO add some more spammy tags
 ]
