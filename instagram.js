@@ -45,7 +45,7 @@ function getNextBatchOfPictures()
         {
             console.log(commonTags[i].tag)
            
-            var relatedHashtags = document.getElementById("christmas")
+            var relatedHashtags = document.getElementById("cont2-1")
             relatedHashtags.textContent = commonTags[3].tag
         }
     }
