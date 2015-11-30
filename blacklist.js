@@ -146,6 +146,8 @@ var blacklistedHashtags =
     'yellow',
     'black',
     'white',
-    'purple'
+    'purple',
+    'etsy',
+    'etsyshop'
     // TODO add some more spammy tags
 ]
