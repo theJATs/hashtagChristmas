@@ -563,6 +563,19 @@ h4 {
 
 }
 
-#xmasText
+.HashTags-1block {
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    text-align: center;
+    background-color: transparent;
+    text-shadow: 4px 4px 15px #000000;
+    color: white;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 15%;
+    max-width: 100%;
+    overflow:auto;
+}
 
 
