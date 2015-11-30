@@ -538,24 +538,19 @@
 }
 
 /*text for hashtag */
-#text2-1{
-    
+
+
+.HashTags {
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    text-align: center;
+    background-color: transparent;
     
 }
 
-#text2-2{
-    
-    
-}
+.HashTagsTopLeft {
 
-#text2-3{
-    
-    
-}
-
-#text2-4{
-    
-    
 }
 
 

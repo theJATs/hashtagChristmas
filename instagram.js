@@ -60,8 +60,61 @@ function getNextBatchOfPictures()
             
 //            hashtag to 16 balls  
             
+//            top left!
+            
             var relatedHashtags = document.getElementById("text2-1-1")
             relatedHashtags.textContent = commonTags[5].tag
+            
+            var relatedHashtags = document.getElementById("text2-1-2")
+            relatedHashtags.textContent = commonTags[6].tag
+            
+            var relatedHashtags = document.getElementById("text2-1-3")
+            relatedHashtags.textContent = commonTags[7].tag
+            
+            var relatedHashtags = document.getElementById("text2-1-4")
+            relatedHashtags.textContent = commonTags[8].tag
+            
+//            Top right
+            
+            var relatedHashtags = document.getElementById("text2-2-1")
+            relatedHashtags.textContent = commonTags[9].tag
+            
+            var relatedHashtags = document.getElementById("text2-2-2")
+            relatedHashtags.textContent = commonTags[10].tag
+            
+            var relatedHashtags = document.getElementById("text2-2-3")
+            relatedHashtags.textContent = commonTags[11].tag
+            
+            var relatedHashtags = document.getElementById("text2-2-4")
+            relatedHashtags.textContent = commonTags[12].tag
+            
+//            Bottom left
+            
+            var relatedHashtags = document.getElementById("text2-3-1")
+            relatedHashtags.textContent = commonTags[13].tag
+            
+            var relatedHashtags = document.getElementById("text2-3-2")
+            relatedHashtags.textContent = commonTags[14].tag
+            
+            var relatedHashtags = document.getElementById("text2-3-3")
+            relatedHashtags.textContent = commonTags[15].tag
+            
+            var relatedHashtags = document.getElementById("text2-3-4")
+            relatedHashtags.textContent = commonTags[16].tag
+            
+//            Bottom right
+            
+            var relatedHashtags = document.getElementById("text2-4-1")
+            relatedHashtags.textContent = commonTags[17].tag
+            
+            var relatedHashtags = document.getElementById("text2-4-2")
+            relatedHashtags.textContent = commonTags[18].tag
+            
+            var relatedHashtags = document.getElementById("text2-4-3")
+            relatedHashtags.textContent = commonTags[19].tag
+            
+            var relatedHashtags = document.getElementById("text2-4-4")
+            relatedHashtags.textContent = commonTags[20].tag
         }
     }
 }
