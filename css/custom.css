@@ -546,7 +546,8 @@
     top: 40%;
     text-align: center;
     background-color: transparent;
-    text-shadow: 4px 4px 15px #888888;
+    text-shadow: 4px 4px 15px #000000;
+    color: white;
 }
 
 .HashTagsTopLeft {
