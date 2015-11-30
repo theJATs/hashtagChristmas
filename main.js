@@ -6,13 +6,23 @@ $(document).ready(function(){
     $("#contShdw2-2").hide()
     $("#contShdw2-3").hide()
     $("#contShdw2-4").hide()
+    
     // TweenMax Animation 
+    
+    //        Fade in for Christmas text
+    
+        
+                
+    var reverseXmasText =     TweenMax.to(document.getElementById("xmasText"), 5, {ease:Cubic.easeOut, opacity:0, delay:2}) 
+    
+    reverseXmasText.reverse(0);
     
     // creating a varibale to get id 
     //var cont1 = document.getElementById("cont1");
     var revesreCout1 = TweenMax.to(document.getElementById("cont1"), 1.2, {scale:0.2, opacity:0, ease:Cubic.easeOut})
     
     revesreCout1.reverse(0);
+    
     
     
   
@@ -24,13 +34,17 @@ $(document).ready(function(){
 // On click for for block 1    
 
     $("#cont1").click(function(){
+        
         $("#contshdow").show()
         $("#cont1").hide()
         $("#cont2-1").fadeIn(0400)
         $("#cont2-2").fadeIn(0400)
         $("#cont2-3").fadeIn(0400)
         $("#cont2-4").fadeIn(0400)
-        
+       
+
+                
+//                TweenMax annimation to  white balls
                 TweenMax.to(document.getElementById("contShd1"), 0.6, {ease:Cubic.easeOut, x:-100, y:-100, scale:0.5 })        
         
         TweenMax.to(document.getElementById("contShd2"), 0.6, {ease:Cubic.easeOut, x:132, y:-127, scale:0.5 })
