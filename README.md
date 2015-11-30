@@ -1,4 +1,4 @@
-# HashtagChristmas
+![alt text](https://github.com/theJATs/hashtagChristmas/blob/gh-pages/images/logo.png "HashtagChristmas")
 
 ## The Introduction
 
