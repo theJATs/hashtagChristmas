@@ -137,6 +137,15 @@ var blacklistedHashtags =
     'lmao',
     'instafollow',
     'pmsl',
-    'rofl'
+    'rofl',
+    '2015',
+    'red',
+    'green',
+    'blue',
+    'pink',
+    'yellow',
+    'black',
+    'white',
+    'purple'
     // TODO add some more spammy tags
 ]
