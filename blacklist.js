@@ -163,7 +163,10 @@ var blacklistedHashtags =
     'popular',
     'trending',
     'lb',
-    'instagram'
+    'instagram',
+    'london',
+    'natale',
+    'smile'
     
     // TODO add some more spammy tags
 ]
