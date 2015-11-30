@@ -166,7 +166,26 @@ var blacklistedHashtags =
     'instagram',
     'london',
     'natale',
-    'smile'
-    
+    'smile',
+    'girl',
+    'boy',
+    'man',
+    'woman',
+    'brother',
+    'sister',
+    'mum',
+    'mother',
+    'aunt',
+    'auntie',
+    'granny',
+    'grandmother',
+    'nan',
+    'nanny',
+    'cousin',
+    'dad',
+    'father',
+    'grandad',
+    'grandparents',
+    'uncle'
     // TODO add some more spammy tags
 ]
