@@ -97,25 +97,25 @@
 }
 
 #cont2-1 {
-    top: 25%;
+    top: 185px;
     margin-left: 256px;
 }
 
 
 
 #cont2-2 {
-    top: 25%;
+    top: 185px;
     margin-left: 513px;
     /* margin-left: 256px; */
 }
 
 #cont2-3 {
-    top: 60%;
+    top: 439px;
     margin-left: 256px;
 }
 
 #cont2-4 {
-    top: 60%;
+    top: 439px;
     margin-left: 513px;
 }
 
@@ -535,4 +535,16 @@
 
 #logo:hover {
     opacity: 0.7;
+}
+
+
+/*Fonts -----*/
+
+#christmas {
+    
+    margin: auto;
+    top: 250px;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
 }
