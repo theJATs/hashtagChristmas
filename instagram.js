@@ -45,17 +45,23 @@ function getNextBatchOfPictures()
         {
             console.log(commonTags[i].tag)
            
+//            hashtag to 4 balls 
             var relatedHashtags = document.getElementById("text2-1")
-            relatedHashtags.textContent = commonTags[3].tag
+            relatedHashtags.textContent = commonTags[1].tag
             
             var relatedHashtags = document.getElementById("text2-2")
-            relatedHashtags.textContent = commonTags[4].tag
+            relatedHashtags.textContent = commonTags[2].tag
             
             var relatedHashtags = document.getElementById("text2-3")
-            relatedHashtags.textContent = commonTags[5].tag
+            relatedHashtags.textContent = commonTags[3].tag
             
             var relatedHashtags = document.getElementById("text2-4")
-            relatedHashtags.textContent = commonTags[6].tag
+            relatedHashtags.textContent = commonTags[4].tag
+            
+//            hashtag to 16 balls  
+            
+            var relatedHashtags = document.getElementById("text2-1-1")
+            relatedHashtags.textContent = commonTags[5].tag
         }
     }
 }
