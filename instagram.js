@@ -41,12 +41,12 @@ function getNextBatchOfPictures()
         
 //        console.log(commonTags) 
         
-        for (var i=1; i<20; i++)
+        for (var i=1; i<21; i++)
         {
             console.log(commonTags[i].tag)
            
-//            var test = document.getElementById("christmas")
-//            test.textContent = commonTags[3].tag
+            var relatedHashtags = document.getElementById("christmas")
+            relatedHashtags.textContent = commonTags[3].tag
         }
     }
 }
