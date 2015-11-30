@@ -150,5 +150,6 @@ var blacklistedHashtags =
     'etsy',
     'etsyshop',
     'home',
+    'funny'
     // TODO add some more spammy tags
 ]
