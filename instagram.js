@@ -42,7 +42,12 @@ function getNextBatchOfPictures()
         for (var i=1; i<21; i++)
         {
             console.log(commonTags[i].tag)
-           
+            
+//            var elem = document.createElement("img");
+//            elem.src = commonTags[7].tag;            
+//            document.getElementById("cont1").appendChild(elem);
+            
+
 //            hashtag to 4 balls 
             var relatedHashtags = document.getElementById("text2-1")
             relatedHashtags.textContent = commonTags[1].tag
@@ -164,13 +169,13 @@ function handleData( json )
 
         // console.log(picture)
 
-        /*var imageURL = picture.images.standard_resolution.url
+        var imageURL = picture.images.standard_resolution.url
         // console.log(imageURL)  
 
         var img = '<img src="' + imageURL + '">'
 
-        $('body').append(img)*/
-
+        $('#cont').append(img)
+        document.getElementById("cont")
         counter ++
     }
     
