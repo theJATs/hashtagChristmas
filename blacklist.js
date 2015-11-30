@@ -110,6 +110,11 @@ var blacklistedHashtags =
     'bodyposi',
     'freethenipple',
     'freethenip',
-    'makeup'
+    'makeup',
+    'picoftheday',
+    'justinbieber',
+    'hair',
+    'emoji',
+    'emojis'
     // TODO add some more spammy tags
 ]
