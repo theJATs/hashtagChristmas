@@ -109,6 +109,7 @@ var blacklistedHashtags =
     'iphone6+',
     'bodyposi',
     'freethenipple',
-    'freethenip'
+    'freethenip',
+    'makeup'
     // TODO add some more spammy tags
 ]
