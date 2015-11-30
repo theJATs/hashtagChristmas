@@ -12,4 +12,19 @@ We are using the Instagram API to search for the 4 most popular hashtags used in
 ### Why did you do this?
 We feel that everyone has a different experience of Christmas, and it's often very personal and specific to a country, relgion, area or family. We wanted to group these personal experiences together in a way which celebrates everyone filter bubbles.
 
-## 
+## The Process
+
+### Planning
+
+![alt text](https://github.com/TomSharmanWeb/HashtagChristmas/blob/master/Research/Mockup-Walkthrough.png "MockUp Walkthrough")
+
+![alt text](https://github.com/TomSharmanWeb/HashtagChristmas/blob/master/Research/FilterBubbles-MindMap-2.png "Filter Bubbles Mind Map")
+
+
+### Formative Assesment
+
+![alt text](https://github.com/TomSharmanWeb/DynamicWeb/blob/master/Formative%20Presentation/Images/hashtagxmas.png "Formative Assesment")
+
+[Download PDF](https://github.com/TomSharmanWeb/DynamicWeb/blob/master/Formative%20Presentation/HashtagChristmas%20Formative%20Presentation.pdf)
+
+
