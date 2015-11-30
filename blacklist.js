@@ -161,7 +161,9 @@ var blacklistedHashtags =
     '5sos',
     'recent',
     'popular',
-    'trending'
+    'trending',
+    'lb',
+    'instagram'
     
     // TODO add some more spammy tags
 ]
