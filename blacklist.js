@@ -153,6 +153,15 @@ var blacklistedHashtags =
     'funny',
     'sad',
     'eyes',
-    'cool'
+    'cool',
+    'free',
+    'nashgrier',
+    'ifollowback',
+    'drake',
+    '5sos',
+    'recent',
+    'popular',
+    'trending'
+    
     // TODO add some more spammy tags
 ]
