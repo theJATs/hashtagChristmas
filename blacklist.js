@@ -115,6 +115,8 @@ var blacklistedHashtags =
     'justinbieber',
     'hair',
     'emoji',
-    'emojis'
+    'emojis',
+    'fashion',
+    'amazing'
     // TODO add some more spammy tags
 ]
