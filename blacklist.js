@@ -207,7 +207,7 @@ var blacklistedHashtags =
     'art',
     'natal',
     'ootd',
-    'tbf'
+    'tbf',
     'followfriday',
     'ff',
     'sweet',
