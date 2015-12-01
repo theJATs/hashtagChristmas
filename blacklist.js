@@ -232,6 +232,5 @@ var blacklistedHashtags =
     'homedecor',
     'igdaily',
     'summer'
-    
     // TODO add some more spammy tags
 ]
