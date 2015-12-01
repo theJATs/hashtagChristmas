@@ -483,10 +483,10 @@
 }
     
 #leftColumn {
-    background-color: #ececec;
-    padding-bottom: 32.5%;
-    opacity: 0.7;
-    margin-left: 0;
+    background-color: transparent;
+    left: 0px;
+    width: 9em;
+    
 }
 
 #leftColumnFoot {
@@ -495,7 +495,7 @@
 
 #LangSelect {
     padding-top: 5em;
-    padding-left: 3em;
+    width: 10px;
 }
 #MainContainer {
     margin-left: 0;
@@ -529,13 +529,12 @@
 }
 
 #logo {
+    position: absolute;
     opacity: 1.0;
-    width:100%;
+    width:33%;
+    left: 35%;
 }
 
-#logo:hover {
-    opacity: 0.7;
-}
 
 /*text for hashtag */
 
