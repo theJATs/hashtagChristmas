@@ -231,6 +231,9 @@ var blacklistedHashtags =
     'me',
     'homedecor',
     'igdaily',
-    'summer'
+    'summer',
+    'instago',
+    'all_shots',
+    'allshots'
     // TODO add some more spammy tags
 ]
