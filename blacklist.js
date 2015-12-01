@@ -196,6 +196,10 @@ var blacklistedHashtags =
     'sunday',
     'gold',
     'silver',
-    'copper'
+    'copper',
+    'me',
+    'you',
+    'us',
+    'them'
     // TODO add some more spammy tags
 ]
