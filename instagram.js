@@ -273,8 +273,25 @@ function gotPictures( json )
                 }
             })
         }
+<<<<<<< Updated upstream
 //        document.getElementById("cont")
+=======
+
+        // console.log(picture)
+
+        var imageURL = picture.images.standard_resolution.url
+ //       var imageURL = picture[2].images.standard_resolution.url
+//        // console.log(imageURL)  
+//
+        var img = '<img src="' + imageURL + '">'
+//
+        $('#cont1').append(img)
+        
+        document.getElementById("cont1")
+        document.getElementById("cont2-1")
+>>>>>>> Stashed changes
         counter ++
+        
     }
     
     
@@ -291,6 +308,7 @@ function gotPictures( json )
     getNextBatchOfPictures()
 }
 
+<<<<<<< Updated upstream
 function displayFirstPicture( json, id )
 {
      console.log('displayFirstPicture ' + id)
@@ -303,4 +321,15 @@ function displayFirstPicture( json, id )
     var img = '<img src="' + imageURL + '">'
     $(id).append(img)
 }
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 
