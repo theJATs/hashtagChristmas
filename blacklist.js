@@ -234,6 +234,10 @@ var blacklistedHashtags =
     'summer',
     'instago',
     'all_shots',
-    'allshots'
+    'allshots',
+    'shoes',
+    'airmax',
+    'nike',
+    'adidas'
     // TODO add some more spammy tags
 ]
