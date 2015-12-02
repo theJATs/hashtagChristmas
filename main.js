@@ -103,5 +103,6 @@ $(document).ready(function(){
           TweenMax.to(document.getElementById("contShdw2-4-1"), 0.6, {ease:Cubic.easeOut, x:-56, y:-60, scale:0.5 })
          TweenMax.to(document.getElementById("contShdw2-4-2"), 0.6, {ease:Cubic.easeOut, x:74, y:-58, scale:0.5 })
          TweenMax.to(document.getElementById("contShdw2-4-3"), 0.6, {ease:Cubic.easeOut, x:-56, y:70, scale:0.5 })
-         TweenMax.to(document.getElementById("contShdw2-4-4"), 0.6, {ease:Cubic.easeOut, x:74, y:68, scale:0.5 }) 
+         TweenMax.to(document.getElementById("contShdw2-4-4"), 0.6, {ease:Cubic.easeOut, x:74, y:68, scale:0.5 })
+    })  
 })
