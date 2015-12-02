@@ -22,7 +22,7 @@ function getNextBatchOfPictures()
     if (currentInstagramCallCounter < howManyInstagramCalls)
     {
         console.log('calling Instagram ' + currentInstagramCallCounter)
-        getInstagramMediaByUrl(instagramUrl)
+        getInstagramMediaByUrl(instagramUrl, gotPictures)
         currentInstagramCallCounter += 1
     }
     else
@@ -39,6 +39,10 @@ function getNextBatchOfPictures()
         
 //        console.log(commonTags) 
         
+        
+        var relatedHashtags,
+            newUrl
+        
         for (var i=1; i<21; i++)
         {
             console.log(commonTags[i].tag)
@@ -46,93 +50,196 @@ function getNextBatchOfPictures()
 //            var elem = document.createElement("img");
 //            elem.src = commonTags[7].tag;            
 //            document.getElementById("cont1").appendChild(elem);
-            
+//            var relatedHashtags = document.getElementById("xmasText")
+//            relatedHashtags.textContent = commonTags[0].tag
 
 //            hashtag to 4 balls 
-            var relatedHashtags = document.getElementById("text2-1")
+            relatedHashtags = document.getElementById("text2-1")
             relatedHashtags.textContent = commonTags[1].tag
+            newUrl = endpoint + commonTags[1].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-1')
+            })
             
-            var relatedHashtags = document.getElementById("text2-2")
+            
+            relatedHashtags = document.getElementById("text2-2")
             relatedHashtags.textContent = commonTags[2].tag
+            newUrl = endpoint + commonTags[2].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-2')
+            })
             
-            var relatedHashtags = document.getElementById("text2-3")
+            
+            relatedHashtags = document.getElementById("text2-3")
             relatedHashtags.textContent = commonTags[3].tag
+            newUrl = endpoint + commonTags[3].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-3')
+            })
             
-            var relatedHashtags = document.getElementById("text2-4")
+            relatedHashtags = document.getElementById("text2-4")
             relatedHashtags.textContent = commonTags[4].tag
+            newUrl = endpoint + commonTags[4].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-4')
+            })
             
 //            hashtag to 16 balls  
             
 //            top left!
             
-            var relatedHashtags = document.getElementById("text2-1-1")
+            relatedHashtags = document.getElementById("text2-1-1")
             relatedHashtags.textContent = commonTags[5].tag
+            newUrl = endpoint + commonTags[5].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-1-1')
+            })
             
-            var relatedHashtags = document.getElementById("text2-1-2")
+            relatedHashtags = document.getElementById("text2-1-2")
             relatedHashtags.textContent = commonTags[6].tag
+            newUrl = endpoint + commonTags[6].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-1-2')
+            })
             
-            var relatedHashtags = document.getElementById("text2-1-3")
+            relatedHashtags = document.getElementById("text2-1-3")
             relatedHashtags.textContent = commonTags[7].tag
+            newUrl = endpoint + commonTags[7].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-1-3')
+            })
             
-            var relatedHashtags = document.getElementById("text2-1-4")
+            relatedHashtags = document.getElementById("text2-1-4")
             relatedHashtags.textContent = commonTags[8].tag
+            newUrl = endpoint + commonTags[8].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-1-4')
+            })
             
 //            Top right
             
-            var relatedHashtags = document.getElementById("text2-2-1")
+            relatedHashtags = document.getElementById("text2-2-1")
             relatedHashtags.textContent = commonTags[9].tag
+            newUrl = endpoint + commonTags[9].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-2-1')
+            })
             
-            var relatedHashtags = document.getElementById("text2-2-2")
+            relatedHashtags = document.getElementById("text2-2-2")
             relatedHashtags.textContent = commonTags[10].tag
+            newUrl = endpoint + commonTags[10].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-2-2')
+            })
             
-            var relatedHashtags = document.getElementById("text2-2-3")
+            relatedHashtags = document.getElementById("text2-2-3")
             relatedHashtags.textContent = commonTags[11].tag
+            newUrl = endpoint + commonTags[11].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-2-3')
+            })
             
-            var relatedHashtags = document.getElementById("text2-2-4")
+            relatedHashtags = document.getElementById("text2-2-4")
             relatedHashtags.textContent = commonTags[12].tag
+            newUrl = endpoint + commonTags[12].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-2-4')
+            })
             
 //            Bottom left
             
-            var relatedHashtags = document.getElementById("text2-3-1")
+            relatedHashtags = document.getElementById("text2-3-1")
             relatedHashtags.textContent = commonTags[13].tag
+            newUrl = endpoint + commonTags[13].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-3-1')
+            })
             
-            var relatedHashtags = document.getElementById("text2-3-2")
+            relatedHashtags = document.getElementById("text2-3-2")
             relatedHashtags.textContent = commonTags[14].tag
+            newUrl = endpoint + commonTags[14].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-3-2')
+            })
             
-            var relatedHashtags = document.getElementById("text2-3-3")
+            relatedHashtags = document.getElementById("text2-3-3")
             relatedHashtags.textContent = commonTags[15].tag
+            newUrl = endpoint + commonTags[15].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-3-3')
+            })
             
-            var relatedHashtags = document.getElementById("text2-3-4")
+            relatedHashtags = document.getElementById("text2-3-4")
             relatedHashtags.textContent = commonTags[16].tag
+            newUrl = endpoint + commonTags[16].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-3-4')
+            })
             
 //            Bottom right
             
-            var relatedHashtags = document.getElementById("text2-4-1")
+            relatedHashtags = document.getElementById("text2-4-1")
             relatedHashtags.textContent = commonTags[17].tag
+            newUrl = endpoint + commonTags[17].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-4-1')
+            })
             
-            var relatedHashtags = document.getElementById("text2-4-2")
+            relatedHashtags = document.getElementById("text2-4-2")
             relatedHashtags.textContent = commonTags[18].tag
+            newUrl = endpoint + commonTags[18].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-4-2')
+            })
             
-            var relatedHashtags = document.getElementById("text2-4-3")
+            relatedHashtags = document.getElementById("text2-4-3")
             relatedHashtags.textContent = commonTags[19].tag
+            newUrl = endpoint + commonTags[19].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-4-3')
+            })
             
-            var relatedHashtags = document.getElementById("text2-4-4")
+            relatedHashtags = document.getElementById("text2-4-4")
             relatedHashtags.textContent = commonTags[20].tag
+            newUrl = endpoint + commonTags[20].tag + "/media/recent?client_id=" + client_id 
+            getInstagramMediaByUrl(newUrl, function(json)
+            {
+                displayFirstPicture(json, '#cont2-4-4')
+            })
         }
     }
 }
 
-function getInstagramMediaByUrl(instagramUrl)
+function getInstagramMediaByUrl(instagramUrl, callbackFunction)
 {
     $.ajax(
     {
         dataType: "jsonp",
         url: instagramUrl,
-        success: handleData
+        success: callbackFunction
     })
 }
 
-function handleData( json )
+function gotPictures( json )
 {
     // console.log(json)
 
@@ -166,22 +273,34 @@ function handleData( json )
                 }
             })
         }
-
-        // console.log(picture)
-
-        var imageURL = picture.images.standard_resolution.url
-        // console.log(imageURL)  
-
-        var img = '<img src="' + imageURL + '">'
-
-        $('#cont').append(img)
-        document.getElementById("cont")
+//        document.getElementById("cont")
         counter ++
     }
+    
+    
+    // FIRST IMAGE
+    
+    var imageURL = pictures[0].images.standard_resolution.url
+    // console.log(imageURL)  
+    var img = '<img src="' + imageURL + '">'
+    $('#cont').append(img)
     
     //    console.log(hashtags)
     
     instagramUrl = json.pagination.next_url 
     getNextBatchOfPictures()
+}
+
+function displayFirstPicture( json, id )
+{
+     console.log('displayFirstPicture ' + id)
+
+    var pictures = json.data
+    
+    // FIRST IMAGE
+    var imageURL = pictures[0].images.standard_resolution.url
+    // console.log(imageURL)  
+    var img = '<img src="' + imageURL + '">'
+    $(id).append(img)
 }
 
