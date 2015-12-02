@@ -238,7 +238,6 @@ var blacklistedHashtags =
     'shoes',
     'airmax',
     'nike',
-    'adidas',
-    'decor'
+    'adidas'
     // TODO add some more spammy tags
 ]
